@@ -27,11 +27,11 @@
                    value="Add Customer"
                    onclick="window.location.href='showFormForAdd'; return false;"
                    class="add-button">
-<%--            <form:form action="search" method="GET">--%>
-<%--                Search customer: <input type="text" name="theSearchName" />--%>
+            <form:form action="search" method="GET">
+                Search customer: <input type="text" name="theSearchName" />
 
-<%--                <input type="submit" value="Search" class="add-button" />--%>
-<%--            </form:form>--%>
+                <input type="submit" value="Search" class="add-button" />
+            </form:form>
             <table>
                 <tr>
                     <th>First Name</th>

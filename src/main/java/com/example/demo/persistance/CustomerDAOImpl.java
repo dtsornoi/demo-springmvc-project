@@ -58,7 +58,7 @@ public class CustomerDAOImpl implements CustomerDAO{
             String sql = "FROM Customer WHERE lower(firstName) LIKE :theName OR lower(lastName) LIKE :theName";
             customers = entityManager
                     .createQuery(sql, Customer.class)
-                    .setParameter("theName", searchName.toLowerCase()).getResultList();
+                    .setParameter("theName", "%" + searchName.toLowerCase() + "%").getResultList();
         }else {
             String sql = "FROM Customer";
             customers = entityManager.createQuery(sql, Customer.class).getResultList();
