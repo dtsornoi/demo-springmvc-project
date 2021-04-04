@@ -19,7 +19,6 @@ public class CustomerDAOImpl implements CustomerDAO{
     }
 
     @Override
-    @Transactional
     public List<Customer> getCustomers() {
         String sql = "FROM Customer";
         return entityManager
