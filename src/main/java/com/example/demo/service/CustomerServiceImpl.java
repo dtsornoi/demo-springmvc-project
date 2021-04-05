@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.model.Customer;
-import com.example.demo.persistance.CustomerDAO;
+import com.example.demo.entity.CustomerDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,14 +1,12 @@
-package com.example.demo.persistance;
+package com.example.demo.entity;
 
 import com.example.demo.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
-import javax.persistence.Query;
 
 import java.util.List;
-import java.util.Locale;
 
 @Repository
 public class CustomerDAOImpl implements CustomerDAO{

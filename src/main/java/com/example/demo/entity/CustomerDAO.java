@@ -1,4 +1,4 @@
-package com.example.demo.persistance;
+package com.example.demo.entity;
 
 import com.example.demo.model.Customer;
 
